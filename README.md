@@ -7,8 +7,8 @@ Hello, here are some interesting graphics projects using p5.js:
 5. [non-overstepping random walker](https://codewithkaranjeswani.github.io/fungames/nonoverstepping_randomwalker_predictive/)
 6. sorting algorithms visualization:
 
-a. selection sort(https://codewithkaranjeswani.github.io/fungames/sorting_algorithms/selection_sort/)
+a. [selection sort](https://codewithkaranjeswani.github.io/fungames/sorting_algorithms/selection_sort/)
 
-b. bubble sort(https://codewithkaranjeswani.github.io/fungames/sorting_algorithms/bubble_sort/)
+b. [bubble sort](https://codewithkaranjeswani.github.io/fungames/sorting_algorithms/bubble_sort/)
 
-c. insertion sort(https://codewithkaranjeswani.github.io/fungames/sorting_algorithms/insertion_sort/)
+c. [insertion sort](https://codewithkaranjeswani.github.io/fungames/sorting_algorithms/insertion_sort/)
