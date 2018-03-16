@@ -1,5 +1,5 @@
 # fungames
-Hello, these are the projects that I did (check it out):
+Hello, here are some interesting graphics projects using p5.js:
 1. [snake game](https://codewithkaranjeswani.github.io/fungames/snake/)
 2. [ants on bar](https://codewithkaranjeswani.github.io/fungames/antsonbar/)
 3. [travelling salesperson (using lexicographic order)](https://codewithkaranjeswani.github.io/fungames/travelling_salesperson/)
