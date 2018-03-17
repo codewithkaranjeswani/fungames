@@ -12,3 +12,5 @@ a. [selection sort](https://codewithkaranjeswani.github.io/fungames/sorting_algo
 b. [bubble sort](https://codewithkaranjeswani.github.io/fungames/sorting_algorithms/bubble_sort/)
 
 c. [insertion sort](https://codewithkaranjeswani.github.io/fungames/sorting_algorithms/insertion_sort/)
+
+7. [double pendulum](https://codewithkaranjeswani.github.io/fungames/double_pendulum/)
