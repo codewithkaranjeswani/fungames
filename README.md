@@ -14,3 +14,4 @@ Hello, here are some interesting graphics projects using p5.js:
     c. [insertion sort](https://codewithkaranjeswani.github.io/fungames/sorting_algorithms/insertion_sort/)
 
 7. [double pendulum](https://codewithkaranjeswani.github.io/fungames/double_pendulum/)
+8. [tix clock](https://codewithkaranjeswani.github.io/fungames/tix_clock/)
