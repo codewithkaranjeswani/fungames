@@ -15,3 +15,4 @@ Hello, here are some interesting graphics projects using p5.js:
 
 7. [double pendulum](https://codewithkaranjeswani.github.io/fungames/double_pendulum/)
 8. [tix clock](https://codewithkaranjeswani.github.io/fungames/tix_clock/)
+9. [slider crank mechanism](https://codewithkaranjeswani.github.io/fungames/slider_crank_mechanism/)
