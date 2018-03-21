@@ -48,7 +48,7 @@ function draw() {
   textSize(64);
   stroke(255, 0, 255);
   fill(255);
-  text(nf(hr, 2) + ':' + nf(min, 2) + ':' + nf(sec, 2), 0, -1 / 3 * height);
+  text(nf(hr, 2) + ':' + nf(min, 2), 0, -1 / 3 * height);
 
   rectMode(CENTER);
   strokeWeight(4);
