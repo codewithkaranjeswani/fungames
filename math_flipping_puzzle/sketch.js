@@ -28,7 +28,7 @@ function setup() {
   for (let i = 1; i <= 100; i++) {
     condition[i] = true;
   }
-  noLoop();
+  frameRate(0.5);
 }
 
 function flipmultiplesof(y) {
@@ -68,6 +68,6 @@ function draw() {
   }
 }
 
-function mousePressed() {
-  redraw();
-}
+// function mousePressed() {
+//   redraw();
+// }
