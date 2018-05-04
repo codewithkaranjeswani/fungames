@@ -1,4 +1,7 @@
+// working on fullScreen version:
+// make score work properly
 // working on the collision function and restart game when its over
+// also work on restarting the game
 let birdy;
 let pipy = [];
 let score = 0;
@@ -6,43 +9,60 @@ let allowed = true;
 let previndex = 0;
 let gameover = false;
 let BORDER;
+let start = false;
+// let music;
+
+// function preload() {
+//   music = loadSound('Edward Maya  Vika Jigulina - Stereo Love (Jay Latune Remix).mp3');
+// }
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(1530, 860);
   BORDER = height / 40;
   birdy = new Bird();
   pipy.push(new Pipe());
-  frameRate(60);
+  noLoop();
+  // music.play();
 }
 
 function draw() {
-  // game logic
-  for (let i = pipy.length - 1; i >= 0; i--) {
-    pipy[i].update();
-  }
-  if (frameCount % 75 == 0) {
-    pipy.push(new Pipe());
-  }
-  birdy.update();
-
-  let index = closestPipe(pipy, birdy);
-  if (pipy[index].collides(birdy)) {
-    gameover = true;
-    noLoop();
-  }
-  if (pipy[index].x < birdy.x && allowed) {
-    score++;
-    allowed = false;
-  }
-  if (index == 1) {
-    allowed = true;
-  }
-  // deleting stuff from the array
-  for (let i = pipy.length - 1; i >= 0; i--) {
-    if (pipy[i].x + pipy[i].thick < -5) {
-      pipy.splice(i, 1);
+  // if (!music.isPlaying()) {
+  //   music.play();
+  // }
+  drawingStuff();
+  if (start) {
+    // game logic
+    for (let i = pipy.length - 1; i >= 0; i--) {
+      pipy[i].update();
     }
+    if (frameCount % 75 == 0) {
+      pipy.push(new Pipe());
+    }
+    birdy.update();
+
+    let index = closestPipe(pipy, birdy);
+    if (pipy[index].collides(birdy)) {
+      gameover = true;
+      noLoop();
+    }
+    if (pipy[index].x < birdy.x && allowed) {
+      score++;
+      allowed = false;
+    }
+    if (index == 1) {
+      allowed = true;
+    }
+    // deleting stuff from the array
+    for (let i = pipy.length - 1; i >= 0; i--) {
+      if (pipy[i].x + pipy[i].thick < -5) {
+        pipy.splice(i, 1);
+      }
+    }
+    drawingStuff();
   }
+}
+
+function drawingStuff() {
   // drawing stuff
   background(51);
   birdy.show();
@@ -80,6 +100,11 @@ function keyPressed() {
   if (key == ' ') {
     birdy.jump();
   }
+
+  if (key == ' ' && !start) {
+    start = true;
+  }
+
   // if (key == ' ' && gameover) {
   // pipy.length = 0;
   // pipy.push(new Pipe());
@@ -117,7 +142,7 @@ class Pipe {
     this.gap = 170 + random(-height / 30, height / 30);
     this.ytop = random(height / 6, 4 * height / 6);
     this.ybottom = this.ytop + this.gap;
-    this.thick = width / 10;
+    this.thick = width / 20;
     this.speed = 5;
     this.x = width + this.thick;
   }
