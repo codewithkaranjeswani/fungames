@@ -108,6 +108,8 @@ function drawingStuff() {
   stroke(50, 0, 100);
   fill(50, 50, 150);
   text("SCORE : " + score, width / 2, height / 10 + 64);
+  fill(50, 150, 50);
+  text("Press 'R' to restart game!", 256, height / 10 + 64);
   if (gameover) {
     stroke(50, 0, 100);
     fill(255, 0, 0);
