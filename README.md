@@ -18,3 +18,4 @@ Hello, here are some interesting graphics projects using p5.js:
 9. [slider crank mechanism](https://codewithkaranjeswani.github.io/fungames/slider_crank_mechanism/)
 10. [math flipping puzzle](https://codewithkaranjeswani.github.io/fungames/math_flipping_puzzle/)
 11. [flappy bird](https://codewithkaranjeswani.github.io/fungames/flappy_bird/)
+12. [chain reaction](https://codewithkaranjeswani.github.io/fungames/chain_reaction_game/)
