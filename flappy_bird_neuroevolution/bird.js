@@ -1,6 +1,6 @@
 class Bird {
   constructor(cap) {
-    this.size = floor(width / 30);
+    this.size = 24;
     this.speed = 0;
     this.x = width / 5;
     this.y = height / 2;

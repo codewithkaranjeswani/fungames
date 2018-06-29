@@ -1,12 +1,12 @@
 class Pipe {
   constructor() {
-    this.gap = 125 + random(-height / 30, height / 30);
+    this.gap = 125;
     this.ytop = random(height / 6, 4 * height / 6);
     this.ybottom = this.ytop + this.gap;
     if (this.ybottom > height - 2 * BORDER) {
       this.ybottom = height - 2 * BORDER;
     }
-    this.thick = width / 10;
+    this.thick = 80;
     this.speed = 5;
     this.x = width + this.thick;
   }

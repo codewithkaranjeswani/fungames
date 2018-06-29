@@ -29,7 +29,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(860, 630);
+  createCanvas(640, 480);
   createP('');
   button = createButton('hide');
   button.mousePressed(toggleDisplay);
@@ -85,7 +85,7 @@ function draw() {
       if (toggle) {
         background(51);
         textAlign(CENTER);
-        textSize(32);
+        textSize(16);
         strokeWeight(4);
         stroke(50, 0, 100);
         fill(50, 50, 150);
@@ -193,7 +193,7 @@ function toggleDisplay() {
   if (toggle) {
     background(51);
     textAlign(CENTER);
-    textSize(32);
+    textSize(16);
     strokeWeight(4);
     stroke(50, 0, 100);
     fill(50, 50, 150);
@@ -240,7 +240,7 @@ function drawingStuff() {
     pipy[i].show();
   }
   textAlign(CENTER);
-  textSize(32);
+  textSize(16);
   strokeWeight(4);
   stroke(50, 0, 100);
   fill(50, 50, 150);
