@@ -22,3 +22,4 @@ Hello, here are some interesting graphics projects using p5.js:
 13. [flappy bird neuroevolution](https://codewithkaranjeswani.github.io/fungames/flappy_bird_neuroevolution/)
 14. [maze generator](https://codewithkaranjeswani.github.io/fungames/maze_generator/)
 15. [minimum spanning tree](https://codewithkaranjeswani.github.io/fungames/minimum_spanning_tree/)
+16. [game of life](https://codewithkaranjeswani.github.io/fungames/game_of_life/)
