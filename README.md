@@ -19,3 +19,5 @@ Hello, here are some interesting graphics projects using p5.js:
 15. [minimum spanning tree](https://codewithkaranjeswani.github.io/fungames/minimum_spanning_tree/)
 16. [game of life](https://codewithkaranjeswani.github.io/fungames/game_of_life/)
 17. [recaman sequence](https://codewithkaranjeswani.github.io/fungames/recaman_sequence/)
+18. [a star pathfinder](https://codewithkaranjeswani.github.io/fungames/a_star_pathfinder/)
+19. [the recaman sequence](https://codewithkaranjeswani.github.io/fungames/recaman_sequence/)
