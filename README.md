@@ -20,5 +20,4 @@ Hello, here are some interesting graphics projects using p5.js:
 16. [game of life](https://codewithkaranjeswani.github.io/fungames/game_of_life/)
 17. [recaman sequence](https://codewithkaranjeswani.github.io/fungames/recaman_sequence/)
 18. [a star pathfinder](https://codewithkaranjeswani.github.io/fungames/a_star_pathfinder/)
-19. [the recaman sequence](https://codewithkaranjeswani.github.io/fungames/recaman_sequence/)
-20. [steering text paths](https://codewithkaranjeswani.github.io/fungames/steering_text_paths/)
+19. [steering text paths](https://codewithkaranjeswani.github.io/fungames/steering_text_paths/)
