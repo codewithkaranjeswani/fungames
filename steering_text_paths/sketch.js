@@ -13,7 +13,7 @@ function setup() {
   // textFont(font);
   // textSize(256);
   // text('train', 125, 350);
-  let points = font.textToPoints('train', 125, 350, 256);
+  let points = font.textToPoints('karan', 85, 350, 256);
   // stroke(255);
   // strokeWeight(8);
   for (elem of points) {
