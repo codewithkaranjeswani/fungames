@@ -22,3 +22,4 @@ Hello, here are some interesting graphics projects using p5.js:
 18. [a star pathfinder](https://codewithkaranjeswani.github.io/fungames/a_star_pathfinder/)
 19. [steering text paths](https://codewithkaranjeswani.github.io/fungames/steering_text_paths/)
 20. [langton's ant](https://codewithkaranjeswani.github.io/fungames/langton's_ant/)
+21. [random walker with levy flight](https://codewithkaranjeswani.github.io/fungames/randomwalker_levyflight/)
