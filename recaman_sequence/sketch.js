@@ -71,7 +71,7 @@ function draw() {
   scale(scl);
 
   rotate(atan((height - 300) / width));
-  for (a of arcs) {
+  for (let a of arcs) {
     a.show();
   }
   // draw 1/ 4th  of the last arc
