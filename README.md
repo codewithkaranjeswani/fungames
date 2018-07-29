@@ -19,6 +19,7 @@ Hello, here are some interesting graphics projects using p5.js:
 17. [minimum spanning tree](https://codewithkaranjeswani.github.io/fungames/minimum_spanning_tree/)
 18. [game of life](https://codewithkaranjeswani.github.io/fungames/game_of_life/)
 19. [recaman sequence](https://codewithkaranjeswani.github.io/fungames/recaman_sequence/)
+<<<<<<< HEAD
 20. [recaman sequence](https://codewithkaranjeswani.github.io/fungames/recaman_sequence/)
 21. [a star pathfinder](https://codewithkaranjeswani.github.io/fungames/a_star_pathfinder/)
 22. [steering text paths](https://codewithkaranjeswani.github.io/fungames/steering_text_paths/)
@@ -34,3 +35,18 @@ Hello, here are some interesting graphics projects using p5.js:
 32. [perceptron](https://codewithkaranjeswani.github.io/fungames/perceptron/)
 33. [particle systems](https://codewithkaranjeswani.github.io/fungames/particle_system/)
 34. [water ripples](https://codewithkaranjeswani.github.io/fungames/water_ripples/)
+=======
+20. [a star pathfinder](https://codewithkaranjeswani.github.io/fungames/a_star_pathfinder/)
+21. [steering text paths](https://codewithkaranjeswani.github.io/fungames/steering_text_paths/)
+22. [langton's ant](https://codewithkaranjeswani.github.io/fungames/langton's_ant/)
+23. [random walker with levy flight](https://codewithkaranjeswani.github.io/fungames/randomwalker_levyflight/)
+24. [calculate PI by monte carlo method](https://codewithkaranjeswani.github.io/fungames/pi_calculate_montecarlo/)
+25. [quadtree standalone](https://codewithkaranjeswani.github.io/fungames/quadtree_standalone/)
+26. [quadtree collision detection](https://codewithkaranjeswani.github.io/fungames/quadtree_collisions/)
+27. [rose patterns](https://codewithkaranjeswani.github.io/fungames/rose_patterns/)
+28. [mandelbrot set](https://codewithkaranjeswani.github.io/fungames/mandelbrot_set)
+29. [recursion circles](https://codewithkaranjeswani.github.io/fungames/recursion_circles/)
+30. [perceptron](https://codewithkaranjeswani.github.io/fungames/perceptron/)
+31. [particle systems](https://codewithkaranjeswani.github.io/fungames/particle_system/)
+32. [water ripples](https://codewithkaranjeswani.github.io/fungames/water_ripples/)
+>>>>>>> 32f9b5c820d26d2be3f7fd0cdd5d119e62f15a8a
