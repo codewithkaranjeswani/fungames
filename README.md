@@ -33,3 +33,4 @@ Hello, here are some interesting graphics projects using p5.js:
 31. [perceptron](https://codewithkaranjeswani.github.io/fungames/perceptron/)
 32. [particle systems](https://codewithkaranjeswani.github.io/fungames/particle_system/)
 33. [water ripples](https://codewithkaranjeswani.github.io/fungames/water_ripples/)
+34. [smart dots](https://codewithkaranjeswani.github.io/fungames/smart_dots)
