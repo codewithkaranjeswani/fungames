@@ -37,3 +37,4 @@ Hello, here are some interesting graphics projects using p5.js:
 35. [metaballs](https://codewithkaranjeswani.github.io/fungames/metaballs)
 36. [animating sprites](https://codewithkaranjeswani.github.io/fungames/animating_sprites/)
 37. [euclidean algorithm gcd](https://codewithkaranjeswani.github.io/fungames/euclidean_algorithm_gcd/)
+38. [fireworks simulation](https://codewithkaranjeswani.github.io/fungames/fireworks/)
