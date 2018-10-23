@@ -3,7 +3,7 @@ let r1, r2, a1, a2, x1, x2, y1, y2, angVel1, angVel2, m1, m2, m, g;
 let prev, buffer;
 
 function setup() {
-  createCanvas(window.innerWidth, window.innerHeight);
+  createCanvas(1536, 860);
   background(0);
 
   buffer = createGraphics(width, height);
