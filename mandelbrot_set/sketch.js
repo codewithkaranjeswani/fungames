@@ -8,7 +8,6 @@ function setup() {
   let maxIterations = 100;
   for (x = 0; x < width; x++) {
     for (y = 0; y < height; y++) {
-
       let a = map(x, 0, width, -2.5, 2.5);
       let b = map(y, 0, height, -2.5, 2.5);
       let ca = a;
@@ -40,7 +39,3 @@ function setup() {
   }
   updatePixels();
 }
-//
-// function draw() {
-//   background(51);
-// }

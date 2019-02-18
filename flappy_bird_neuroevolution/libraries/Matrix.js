@@ -26,16 +26,6 @@ class Matrix {
     console.table(this.vals);
   }
 
-  copy() {
-    let a = new Matrix(this.rows, this.cols);
-    for (let i = 0; i < this.rows; i++) {
-      for (let j = 0; j < this.cols; j++) {
-        a.vals[i][j] = this.vals[i][j];
-      }
-    }
-    return a;
-  }
-
   static fromArray(arr) {
     let n = new Matrix(arr.length, 1);
     for (let i = 0; i < arr.length; i++) {
