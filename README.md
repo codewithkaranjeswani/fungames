@@ -40,3 +40,4 @@ Hello, here are some interesting graphics projects using p5.js:
 38. [fireworks simulation](https://codewithkaranjeswani.github.io/fungames/fireworks/)
 39. [media player](https://codewithkaranjeswani.github.io/fungames/media_player/)
 40. [cardioids and more](https://codewithkaranjeswani.github.io/fungames/cardioids_and_more)
+41. [8-bar-homework](https://codewithkaranjeswani.github.io/fungames/8-bar-homework)
